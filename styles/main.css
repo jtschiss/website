@@ -14,7 +14,27 @@ div#navigation {
     padding-right: 0px;
 }
 
-li.nav-item {
-    margin-left: 50%;
-    margin-right: 50%
+ul {
+    width: 100%;
+    margin-top: 1em;
 }
+
+li.nav-item {
+    margin-left: 15%;
+    text-align: left;
+}
+
+li.nav-item a {
+    font-size: 169%;
+    transition: font-size .1s;
+}
+
+li.nav-item a:hover {
+    font-size: 220%;
+}
+
+@media only screen and (max-width: 1000px) {
+    div#about p {
+      font-size: 200%;
+    }
+  }
